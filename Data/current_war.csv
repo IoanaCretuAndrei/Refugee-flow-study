@@ -1,0 +1,33 @@
+Country,Conflict_type,Conflict Casualties
+Afghanistan,Civil War,"1,000 to 10,000"
+Central African Republic,Civil War,0 to 999
+Ethiopia,Civil War,"1,000 to 10,000"
+Libya,Civil War,0 to 999
+Mali,Civil War,"1,000 to 10,000"
+Myanmar,Civil War,"10,000+"
+Somalia,Civil War,"1,000 to 10,000"
+Syria,Civil War,"1,000 to 10,000"
+Yemen,Civil War,"1,000 to 10,000"
+Colombia,Drug War,"1,000 to 10,000"
+Mexico,Drug War,"1,000 to 10,000"
+South Sudan,Ethnic Violence,"1,000 to 10,000"
+Algeria,Terrorist Insurgency,0 to 999
+Benin,Terrorist Insurgency,0 to 999
+Burkina Faso,Terrorist Insurgency,"1,000 to 10,000"
+Cameroon,Terrorist Insurgency,0 to 999
+Chad,Terrorist Insurgency,0 to 999
+Democratic Republic of the Congo,Terrorist Insurgency,"1,000 to 10,000"
+Ghana,Terrorist Insurgency,0 to 999
+Iraq,Terrorist Insurgency,"1,000 to 10,000"
+Ivory Coast,Terrorist Insurgency,0 to 999
+Mauritania,Terrorist Insurgency,0 to 999
+Mozambique,Terrorist Insurgency,0 to 999
+Niger,Terrorist Insurgency,0 to 999
+Nigeria,Terrorist Insurgency,"1,000 to 10,000"
+Sudan,Terrorist Insurgency,"1,000 to 10,000"
+Tanzania,Terrorist Insurgency,0 to 999
+Togo,Terrorist Insurgency,0 to 999
+Tunisia,Terrorist Insurgency,0 to 999
+Uganda,Terrorist Insurgency,0 to 999
+Russia,War,"10,000+"
+Ukraine,War,"10,000+"
