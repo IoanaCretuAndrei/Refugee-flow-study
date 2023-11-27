@@ -30,7 +30,8 @@ st.sidebar.markdown("**Version:** 1.0.0")
 #df_2022 = df[df['Year'] == 2022]
 
 # Estructura de la aplicación con Streamlit
-st.title("Informe de Flujos Migratorios 2022 y Predicciones para 2023")
+st.title("*Informe sobre personas desplazadas forzosamente a nivel global*")
+st.header('Análisis de la serie histórica de los flujos migratorios y situación actual a nivel global')
 #st.header("INTRODUCCIÓN")
 
 
