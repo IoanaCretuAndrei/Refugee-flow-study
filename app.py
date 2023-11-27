@@ -1,16 +1,26 @@
 # Importar todas las librearías necesarias
 import streamlit as st
 import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import plotly.express as px 
+
+image_url = "https://i1.wp.com/entrefronteras.com/wp-content/uploads/2015/06/04.jpg.jpg?resize=600%2C400&ssl=1"
+st.image(image_url, caption='Imagen cedidad por https://entrefronteras.com/que-es-la-crisis-de-refugiados/', use_column_width=True)
 
 # Sidebar
 # st.image("", caption="Descripción de la imagen")
-st.sidebar.header("Bienvenidos!")
+st.sidebar.header("*Informe anual sobre personas desplzadas forzosamente en 2022.*")
 st.sidebar.markdown(" ")
-st.sidebar.markdown("*Informe de Flujos Migratorios 2022 y Predicciones para 2023.*")
-
+st.sidebar.markdown("Este informe ha sido realizado por la ONG Data Analysis for Refugees (DAR) con el objetivo de analizar la situación actual de los refugiados a nivel global y predecir los flujos migratorios para años venideors.")
+st.sidebar.markdown('Con este informe, se busca generar conciencia sobre la crisis migratoria y promover la colaboración entre gobiernos, organizaciones y ciudadanos para brindar apoyo a los refugiados, así como anticiparse ante futuros desplazamientos y poder erradicar las causas que los provocan y a la vez proveer las condiciones dignas necesarias para las personas desplazadas.')
+st.sidebar.markdown('**Fuente de datos:** [UNHCR](https://www.unhcr.org/global-trends-report-2022')
+st.sidebar.markdown("**Autores:** Data Analysis for Refugees (DAR)")
+st.sidebar.markdown("#Añadir nombres, link a LinkedIn y GitHub")
 st.sidebar.markdown("**Version:** 1.0.0")
 
-
+######################## MAIN  ########################
 
 # Cargar los datos
 #url = "URL_DEL_CSV"  # Reemplace con la URL o ruta local de su archivo CSV
@@ -21,42 +31,50 @@ st.sidebar.markdown("**Version:** 1.0.0")
 
 # Estructura de la aplicación con Streamlit
 st.title("Informe de Flujos Migratorios 2022 y Predicciones para 2023")
+#st.header("INTRODUCCIÓN")
+
+
+## Subtítulo 0
+st.header("Alguna definiciones de interés")
+st.write('**-Refugiados bajo el mandato de ACNUR:** En resumen, un refugiado es una persona que ha cruzado las fronteras internacionales y ha buscado protección en otro país porque enfrenta amenazas graves en su país de origen.')
+st.write('**-Solicitantes de asilo:** individuos que han buscado protección internacional y cuyas solicitudes de estatus de refugiado aún no han sido determinadas.')
+st.write('**-Personas desplazadas internas:** son personas o grupos de personas que han sido obligadas u obligadas a huir o abandonar sus hogares, debido a conflictos armados, situaciones de violencia generalizada, violaciones de los derechos humanos o desastres naturales, y que no han cruzado una frontera estatal reconocida internacionalmente.')
+st.write('**-Otras personas que necesitan protección internacional:** han sido desplazadas forzosamente a través de fronteras internacionales, que no han sido informadas bajo otras categorías (solicitantes de asilo, refugiados, personas en situaciones similares a las de los refugiados) pero que probablemente necesitan protección internacional.')
+st.write('**-Otras personas de interés para ACNUR:** no necesariamente encajan directamente en ninguno de estos grupos anteriores, pero a quienes el ACNUR ha extendido sus servicios de protección y/o asistencia, basándose en motivos humanitarios.')
+
+
 
 ## Subtítulo 1
 st.header("El Estado Actual de los Refugiados Globales")
 st.write("En el año 2022, el mundo enfrenta una crisis migratoria con un total de 110 millones de refugiados. Este informe detalla la situación actual, destacando los países de origen y los principales destinos.")
 
+
 ## Subtítulo 2
 st.header("Países de Origen Predominantes")
 
-### Afganistán
 st.subheader("1. Afganistán")
 st.write("A pesar de los esfuerzos internacionales, Afganistán continúa siendo uno de los principales países de origen de refugiados, con un flujo constante debido a conflictos y desplazamientos.")
 
-### Venezuela
 st.subheader("2. Venezuela")
 st.write("La situación política y económica en Venezuela ha llevado a un significativo éxodo de personas, contribuyendo sustancialmente al número global de refugiados.")
 
-### Siria
 st.subheader("3. Siria")
 st.write("Los conflictos en Siria persisten, haciendo que la población busque refugio en otras naciones en busca de seguridad y estabilidad.")
 
-### Ucrania
 st.subheader("4. Ucrania")
 st.write("A pesar de los acontecimientos en años anteriores, Ucrania sigue siendo un punto de origen para aquellos que buscan seguridad en medio de tensiones políticas y sociales.")
+
+
 
 ## Subtítulo 3
 st.header("Principales Destinos de Refugiados")
 
-### Reino Unido
 st.subheader("1. Reino Unido (UK)")
 st.write("Como uno de los destinos principales, el Reino Unido experimenta un flujo constante de refugiados que buscan nuevas oportunidades y seguridad.")
 
-### Estados Unidos
 st.subheader("2. Estados Unidos (USA)")
 st.write("La búsqueda del 'sueño americano' sigue atrayendo a personas de diversas partes del mundo, contribuyendo a la cifra global de refugiados.")
 
-### Rusia
 st.subheader("3. Rusia")
 st.write("Aunque históricamente ha sido un país de origen, Rusia también se destaca como receptor de refugiados, desempeñando un papel crucial en la dinámica migratoria global.")
 
@@ -64,11 +82,30 @@ st.write("Aunque históricamente ha sido un país de origen, Rusia también se d
 st.header("Proyecciones para el Año 2023")
 st.write("Con base en modelos de machine learning y análisis de tendencias, se proyecta que la cifra de refugiados podría experimentar cambios significativos en 2023. Este informe ofrece una visión anticipada de las posibles alteraciones en los flujos migratorios y destinos emergentes.")
 
-# Visualización de datos
-st.subheader("Datos para el año 2022")
-#st.dataframe(df_2022)
 
-# Puede agregar más visualizaciones y secciones según sea necesario.
 
-# Finalmente, ejecutar la aplicación con el siguiente comando en la terminal
-# streamlit run app.py
+
+
+# Peticiones de asilo
+st.header("Peticiones de asilo")
+# Explorar datos sobre peticiones de asilo a lo largo del tiempo.
+# Identificar patrones regionales y cambios significativos.
+# Analizar factores que podrían haber influido en las peticiones de asilo.
+# Peticiones totales
+# Distribución por sexo/género
+# Distribución de 2-3 paises de origen y 2-3 de destino para ver cómo se aprueban/rechazan peticiones
+
+
+# Situación actual de los refugiados
+st.header("Situación actual de los refugiados")
+# Describir la situación actual de los movimientos de refugiados en 2023.
+# Destacar cifras clave y regiones más afectadas.
+# .
+# Datos de refugiados en el último año
+# Mapas para ver de dónde son y a dónde van
+
+
+## Predicciones
+st.header("Qué esperamos para los próximos años")
+st.write("En base a modelos de machine learning y análisis de tendencias, se proyecta que la cifra de refugiados podría experimentar cambios significativos en 2023. Este informe ofrece una visión anticipada de las posibles alteraciones en los flujos migratorios y destinos emergentes.")
+
