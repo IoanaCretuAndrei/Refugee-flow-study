@@ -69,6 +69,57 @@ image_path = "graficos/top_10_2022.png"
 # Mostrar la imagen
 st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
 
+# Ruta del archivo de imagen local
+image_path = "graficos/asilo_destino.png"
+# Mostrar la imagen
+st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
+
+# Ruta del archivo de imagen local
+image_path = 'graficos/asilo_origen.png'
+# Mostrar la imagen
+st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
+
+
+# Ruta del archivo de imagen local
+image_path = "graficos/demo_afg.png"
+# Mostrar la imagen
+st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
+
+
+# Ruta del archivo de imagen local
+image_path = "graficos/demo_ukr.png"
+# Mostrar la imagen
+st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
+
+
+# Ruta del archivo de imagen local
+image_path = "graficos/edad_hombres.png"
+# Mostrar la imagen
+st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
+
+# Ruta del archivo de imagen local
+image_path = "graficos/edad.png"
+# Mostrar la imagen
+st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
+
+# Ruta del archivo de imagen local
+image_path = "graficos/Sexos_refugees.png"
+# Mostrar la imagen
+st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
+
+# Ruta del archivo de imagen local
+image_path = "graficos/top_asilo_destino.png"
+# Mostrar la imagen
+st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
+
+# Ruta del archivo de imagen local
+image_path = "graficos/top_asilo_origen.png"
+# Mostrar la imagen
+st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
+
+
+
+
 
 ######  HTML  ######
 
@@ -111,6 +162,55 @@ with open(html_path, 'r', encoding='utf-8') as file:
 explicacion = "Número de desplazados por año y por país de origen"
 html_with_caption = f"{html_content}\n\n{explicacion}"
 st.components.v1.html(html_content, height=800, width=1000)
+
+
+
+
+# Ruta del archivo de imagen local
+image_path = 'graficos/asilo_origen.png'
+# Mostrar la imagen
+st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
+
+
+# Ruta del archivo de imagen local
+image_path = "graficos/demo_afg.png"
+# Mostrar la imagen
+st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
+
+
+# Ruta del archivo de imagen local
+image_path = "graficos/demo_ukr.png"
+# Mostrar la imagen
+st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
+
+
+# Ruta del archivo de imagen local
+image_path = "graficos/edad_hombres.png"
+# Mostrar la imagen
+st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
+
+# Ruta del archivo de imagen local
+image_path = "graficos/edad.png"
+# Mostrar la imagen
+st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
+
+# Ruta del archivo de imagen local
+image_path = "graficos/Sexos_refugees.png"
+# Mostrar la imagen
+st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
+
+# Ruta del archivo de imagen local
+image_path = "graficos/top_asilo_destino.png"
+# Mostrar la imagen
+st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
+
+# Ruta del archivo de imagen local
+image_path = "graficos/top_asilo_origen.png"
+# Mostrar la imagen
+st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
+
+
+
 
 
 
