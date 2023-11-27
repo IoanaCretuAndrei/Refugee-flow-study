@@ -34,6 +34,7 @@ st.title("*Informe sobre personas desplazadas forzosamente a nivel global*")
 st.subheader('Análisis de la serie histórica de los flujos migratorios y situación actual a nivel global y predicciones para los próximos años.')
 #st.header("INTRODUCCIÓN")
 
+
 ### ÍNDICE ###
 st.markdown("## Aquí irá el índice")
 
@@ -43,9 +44,16 @@ st.markdown("## Introducción")
 st.write('Este informe se sumerge en el análisis de las tendencias de series históricas de refugiados y peticiones de asilo, utilizando datos recopilados por ACNUR de gobiernos de todo el mundo. El objetivo es comprender patrones, factores desencadenantes y, fundamentalmente, explorar la posibilidad de prever crisis humanitarias futuras. Al explorar la serie histórica buscamos proporcionar a gobiernos y organizaciones las herramientas necesarias para anticipar y abordar las necesidades básicas de las personas desplazadas, contribuyendo así a construir un futuro más resiliente y compasivo.')
 
 
+## Primer apartado: Situación general de los refugiados a través de los años
+st.header("Evolución del número de personas desplazadas forzosamente a través de los años")
+st.write('A continuación, vamos a ver de manera general cómo ha evolucionado el número de personas desplazadas forzosamente a través de los años.')
+st.write('Para ello estudiaremos los datos desde el año 1951 hasta el año 2022 e incidiremos en aquellos eventos históricos  que han tenido un mayor impacto en estos datos')
+# Ruta del archivo de imagen local
+image_path = ""
+# Mostrar la imagen
+st.image(image_path, caption='', use_column_width=True)
 
 
-## Subtítulo 0
 st.header("Alguna definiciones de interés")
 st.write('**-Refugiados bajo el mandato de ACNUR:** En resumen, un refugiado es una persona que ha cruzado las fronteras internacionales y ha buscado protección en otro país porque enfrenta amenazas graves en su país de origen.')
 st.write('**-Solicitantes de asilo:** individuos que han buscado protección internacional y cuyas solicitudes de estatus de refugiado aún no han sido determinadas.')
