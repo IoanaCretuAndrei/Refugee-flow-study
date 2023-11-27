@@ -40,9 +40,7 @@ st.markdown("## Aquí irá el índice")
 
 ### INTRODUCCIÓN ###
 st.markdown("## Introducción")
-st.text('Este informe se sumerge en el análisis de las tendencias de series históricas de refugiados y peticiones de asilo, utilizando datos recopilados por ACNUR de gobiernos de todo el mundo.')
-st.text('El objetivo es comprender patrones, factores desencadenantes y, fundamentalmente, explorar la posibilidad de prever crisis humanitarias futuras.')
-st.text('Al explorar la serie histórica buscamos proporcionar a gobiernos y organizaciones las herramientas necesarias para anticipar y abordar las necesidades básicas de las personas desplazadas, contribuyendo así a construir un futuro más resiliente y compasivo.')
+st.write('Este informe se sumerge en el análisis de las tendencias de series históricas de refugiados y peticiones de asilo, utilizando datos recopilados por ACNUR de gobiernos de todo el mundo. El objetivo es comprender patrones, factores desencadenantes y, fundamentalmente, explorar la posibilidad de prever crisis humanitarias futuras. Al explorar la serie histórica buscamos proporcionar a gobiernos y organizaciones las herramientas necesarias para anticipar y abordar las necesidades básicas de las personas desplazadas, contribuyendo así a construir un futuro más resiliente y compasivo.')
 
 
 
