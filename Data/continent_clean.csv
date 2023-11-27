@@ -1,0 +1,250 @@
+,code_3,continent,sub_region
+0,AFG,Asia,Southern Asia
+1,ALA,Europe,Northern Europe
+2,ALB,Europe,Southern Europe
+3,DZA,Africa,Northern Africa
+4,ASM,Oceania,Polynesia
+5,AND,Europe,Southern Europe
+6,AGO,Africa,Middle Africa
+7,AIA,Americas,Caribbean
+8,ATA,,
+9,ATG,Americas,Caribbean
+10,ARG,Americas,South America
+11,ARM,Asia,Western Asia
+12,ABW,Americas,Caribbean
+13,AUS,Oceania,Australia and New Zealand
+14,AUT,Europe,Western Europe
+15,AZE,Asia,Western Asia
+16,BHS,Americas,Caribbean
+17,BHR,Asia,Western Asia
+18,BGD,Asia,Southern Asia
+19,BRB,Americas,Caribbean
+20,BLR,Europe,Eastern Europe
+21,BEL,Europe,Western Europe
+22,BLZ,Americas,Central America
+23,BEN,Africa,Western Africa
+24,BMU,Americas,Northern America
+25,BTN,Asia,Southern Asia
+26,BOL,Americas,South America
+27,BES,Americas,Caribbean
+28,BIH,Europe,Southern Europe
+29,BWA,Africa,Southern Africa
+30,BVT,,
+31,BRA,Americas,South America
+32,IOT,,
+33,BRN,Asia,South-Eastern Asia
+34,BGR,Europe,Eastern Europe
+35,BFA,Africa,Western Africa
+36,BDI,Africa,Eastern Africa
+37,KHM,Asia,South-Eastern Asia
+38,CMR,Africa,Middle Africa
+39,CAN,Americas,Northern America
+40,CPV,Africa,Western Africa
+41,CYM,Americas,Caribbean
+42,CAF,Africa,Middle Africa
+43,TCD,Africa,Middle Africa
+44,CHL,Americas,South America
+45,CHN,Asia,Eastern Asia
+46,CXR,,
+47,CCK,,
+48,COL,Americas,South America
+49,COM,Africa,Eastern Africa
+50,COG,Africa,Middle Africa
+51,COD,Africa,Middle Africa
+52,COK,Oceania,Polynesia
+53,CRI,Americas,Central America
+54,CIV,Africa,Western Africa
+55,HRV,Europe,Southern Europe
+56,CUB,Americas,Caribbean
+57,CUW,Americas,Caribbean
+58,CYP,Asia,Western Asia
+59,CZE,Europe,Eastern Europe
+60,DNK,Europe,Northern Europe
+61,DJI,Africa,Eastern Africa
+62,DMA,Americas,Caribbean
+63,DOM,Americas,Caribbean
+64,ECU,Americas,South America
+65,EGY,Africa,Northern Africa
+66,SLV,Americas,Central America
+67,GNQ,Africa,Middle Africa
+68,ERI,Africa,Eastern Africa
+69,EST,Europe,Northern Europe
+70,ETH,Africa,Eastern Africa
+71,FLK,Americas,South America
+72,FRO,Europe,Northern Europe
+73,FJI,Oceania,Melanesia
+74,FIN,Europe,Northern Europe
+75,FRA,Europe,Western Europe
+76,GUF,Americas,South America
+77,PYF,Oceania,Polynesia
+78,ATF,,
+79,GAB,Africa,Middle Africa
+80,GMB,Africa,Western Africa
+81,GEO,Asia,Western Asia
+82,DEU,Europe,Western Europe
+83,GHA,Africa,Western Africa
+84,GIB,Europe,Southern Europe
+85,GRC,Europe,Southern Europe
+86,GRL,Americas,Northern America
+87,GRD,Americas,Caribbean
+88,GLP,Americas,Caribbean
+89,GUM,Oceania,Micronesia
+90,GTM,Americas,Central America
+91,GGY,Europe,Northern Europe
+92,GIN,Africa,Western Africa
+93,GNB,Africa,Western Africa
+94,GUY,Americas,South America
+95,HTI,Americas,Caribbean
+96,HMD,,
+97,VAT,Europe,Southern Europe
+98,HND,Americas,Central America
+99,HKG,Asia,Eastern Asia
+100,HUN,Europe,Eastern Europe
+101,ISL,Europe,Northern Europe
+102,IND,Asia,Southern Asia
+103,IDN,Asia,South-Eastern Asia
+104,IRN,Asia,Southern Asia
+105,IRQ,Asia,Western Asia
+106,IRL,Europe,Northern Europe
+107,IMN,Europe,Northern Europe
+108,ISR,Asia,Western Asia
+109,ITA,Europe,Southern Europe
+110,JAM,Americas,Caribbean
+111,JPN,Asia,Eastern Asia
+112,JEY,Europe,Northern Europe
+113,JOR,Asia,Western Asia
+114,KAZ,Asia,Central Asia
+115,KEN,Africa,Eastern Africa
+116,KIR,Oceania,Micronesia
+117,PRK,Asia,Eastern Asia
+118,KOR,Asia,Eastern Asia
+119,KWT,Asia,Western Asia
+120,KGZ,Asia,Central Asia
+121,LAO,Asia,South-Eastern Asia
+122,LVA,Europe,Northern Europe
+123,LBN,Asia,Western Asia
+124,LSO,Africa,Southern Africa
+125,LBR,Africa,Western Africa
+126,LBY,Africa,Northern Africa
+127,LIE,Europe,Western Europe
+128,LTU,Europe,Northern Europe
+129,LUX,Europe,Western Europe
+130,MAC,Asia,Eastern Asia
+131,MKD,Europe,Southern Europe
+132,MDG,Africa,Eastern Africa
+133,MWI,Africa,Eastern Africa
+134,MYS,Asia,South-Eastern Asia
+135,MDV,Asia,Southern Asia
+136,MLI,Africa,Western Africa
+137,MLT,Europe,Southern Europe
+138,MHL,Oceania,Micronesia
+139,MTQ,Americas,Caribbean
+140,MRT,Africa,Western Africa
+141,MUS,Africa,Eastern Africa
+142,MYT,Africa,Eastern Africa
+143,MEX,Americas,Central America
+144,FSM,Oceania,Micronesia
+145,MDA,Europe,Eastern Europe
+146,MCO,Europe,Western Europe
+147,MNG,Asia,Eastern Asia
+148,MNE,Europe,Southern Europe
+149,MSR,Americas,Caribbean
+150,MAR,Africa,Northern Africa
+151,MOZ,Africa,Eastern Africa
+152,MMR,Asia,South-Eastern Asia
+153,NAM,Africa,Southern Africa
+154,NRU,Oceania,Micronesia
+155,NPL,Asia,Southern Asia
+156,NLD,Europe,Western Europe
+157,NCL,Oceania,Melanesia
+158,NZL,Oceania,Australia and New Zealand
+159,NIC,Americas,Central America
+160,NER,Africa,Western Africa
+161,NGA,Africa,Western Africa
+162,NIU,Oceania,Polynesia
+163,NFK,Oceania,Australia and New Zealand
+164,MNP,Oceania,Micronesia
+165,NOR,Europe,Northern Europe
+166,OMN,Asia,Western Asia
+167,PAK,Asia,Southern Asia
+168,PLW,Oceania,Micronesia
+169,PSE,Asia,Western Asia
+170,PAN,Americas,Central America
+171,PNG,Oceania,Melanesia
+172,PRY,Americas,South America
+173,PER,Americas,South America
+174,PHL,Asia,South-Eastern Asia
+175,PCN,Oceania,Polynesia
+176,POL,Europe,Eastern Europe
+177,PRT,Europe,Southern Europe
+178,PRI,Americas,Caribbean
+179,QAT,Asia,Western Asia
+180,REU,Africa,Eastern Africa
+181,ROU,Europe,Eastern Europe
+182,RUS,Europe,Eastern Europe
+183,RWA,Africa,Eastern Africa
+184,BLM,Americas,Caribbean
+185,SHN,Africa,Western Africa
+186,KNA,Americas,Caribbean
+187,LCA,Americas,Caribbean
+188,MAF,Americas,Caribbean
+189,SPM,Americas,Northern America
+190,VCT,Americas,Caribbean
+191,WSM,Oceania,Polynesia
+192,SMR,Europe,Southern Europe
+193,STP,Africa,Middle Africa
+194,SAU,Asia,Western Asia
+195,SEN,Africa,Western Africa
+196,SRB,Europe,Southern Europe
+197,SYC,Africa,Eastern Africa
+198,SLE,Africa,Western Africa
+199,SGP,Asia,South-Eastern Asia
+200,SXM,Americas,Caribbean
+201,SVK,Europe,Eastern Europe
+202,SVN,Europe,Southern Europe
+203,SLB,Oceania,Melanesia
+204,SOM,Africa,Eastern Africa
+205,ZAF,Africa,Southern Africa
+206,SGS,,
+207,SSD,Africa,Eastern Africa
+208,ESP,Europe,Southern Europe
+209,LKA,Asia,Southern Asia
+210,SDN,Africa,Northern Africa
+211,SUR,Americas,South America
+212,SJM,Europe,Northern Europe
+213,SWZ,Africa,Southern Africa
+214,SWE,Europe,Northern Europe
+215,CHE,Europe,Western Europe
+216,SYR,Asia,Western Asia
+217,TWN,Asia,Eastern Asia
+218,TJK,Asia,Central Asia
+219,TZA,Africa,Eastern Africa
+220,THA,Asia,South-Eastern Asia
+221,TLS,Asia,South-Eastern Asia
+222,TGO,Africa,Western Africa
+223,TKL,Oceania,Polynesia
+224,TON,Oceania,Polynesia
+225,TTO,Americas,Caribbean
+226,TUN,Africa,Northern Africa
+227,TUR,Asia,Western Asia
+228,TKM,Asia,Central Asia
+229,TCA,Americas,Caribbean
+230,TUV,Oceania,Polynesia
+231,UGA,Africa,Eastern Africa
+232,UKR,Europe,Eastern Europe
+233,ARE,Asia,Western Asia
+234,GBR,Europe,Northern Europe
+235,USA,Americas,Northern America
+236,UMI,,
+237,URY,Americas,South America
+238,UZB,Asia,Central Asia
+239,VUT,Oceania,Melanesia
+240,VEN,Americas,South America
+241,VNM,Asia,South-Eastern Asia
+242,VGB,Americas,Caribbean
+243,VIR,Americas,Caribbean
+244,WLF,Oceania,Polynesia
+245,ESH,Africa,Northern Africa
+246,YEM,Asia,Western Asia
+247,ZMB,Africa,Eastern Africa
+248,ZWE,Africa,Eastern Africa
