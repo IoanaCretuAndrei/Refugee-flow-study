@@ -11,7 +11,7 @@ st.image(image_url, caption='Imagen cedidad por https://entrefronteras.com/que-e
 
 # Sidebar
 # st.image("", caption="Descripción de la imagen")
-st.sidebar.header("*Informe anual sobre personas desplzadas forzosamente en 2022.*")
+st.sidebar.header("*Informe sobre personas desplazadas forzosamente a nivel global*")
 st.sidebar.markdown(" ")
 st.sidebar.markdown("Este informe ha sido realizado por la ONG Data Analysis for Refugees (DAR) con el objetivo de analizar la situación actual de los refugiados a nivel global y predecir los flujos migratorios para años venideors.")
 st.sidebar.markdown('Con este informe, se busca generar conciencia sobre la crisis migratoria y promover la colaboración entre gobiernos, organizaciones y ciudadanos para brindar apoyo a los refugiados, así como anticiparse ante futuros desplazamientos y poder erradicar las causas que los provocan y a la vez proveer las condiciones dignas necesarias para las personas desplazadas.')
