@@ -5,6 +5,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.express as px 
+from PIL import Image
 
 image_url = "https://i1.wp.com/entrefronteras.com/wp-content/uploads/2015/06/04.jpg.jpg?resize=600%2C400&ssl=1"
 st.image(image_url, caption='Imagen cedidad por https://entrefronteras.com/que-es-la-crisis-de-refugiados/', use_column_width=True)
@@ -48,10 +49,35 @@ st.write('Este informe se sumerge en el análisis de las tendencias de series hi
 st.header("Evolución del número de personas desplazadas forzosamente a través de los años")
 st.write('A continuación, vamos a ver de manera general cómo ha evolucionado el número de personas desplazadas forzosamente a través de los años.')
 st.write('Para ello estudiaremos los datos desde el año 1951 hasta el año 2022 e incidiremos en aquellos eventos históricos  que han tenido un mayor impacto en estos datos')
+
 # Ruta del archivo de imagen local
-image_path = ""
+image_path = "graficos/total_refugiados_tiempo.png"
 # Mostrar la imagen
-st.image(image_path, caption='', use_column_width=True)
+st.image(image_path, caption='Evolución del número de refugiados a través de los años', use_column_width=False)
+
+# Ruta del archivo de imagen local
+html_path = "graficos/scatter_years.html"
+# Mostrar el contenido HTML
+with open(html_path, 'r', encoding='utf-8') as file:
+    html_content = file.read()
+# Añadir una explicación o caption
+explicacion = "Número de desplazados por año y por país de origen"
+html_with_caption = f"{html_content}\n\n{explicacion}"
+
+st.components.v1.html(html_content, height=800, width=1000)
+
+# Ruta del archivo de imagen local
+image_path3 = "graficos/ARIMA.png"
+# Mostrar la imagen
+st.image(image_path3, caption='Proyecciones del número de desplazados para los próximos años utilizando el modelo ARIMA', use_column_width=True)
+
+# Ruta del archivo de imagen local
+image_path = "graficos/top_10_2022.png"
+# Mostrar la imagen
+st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
+
+
+
 
 
 st.header("Alguna definiciones de interés")
