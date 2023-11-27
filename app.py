@@ -50,21 +50,14 @@ st.header("Evolución del número de personas desplazadas forzosamente a través
 st.write('A continuación, vamos a ver de manera general cómo ha evolucionado el número de personas desplazadas forzosamente a través de los años.')
 st.write('Para ello estudiaremos los datos desde el año 1951 hasta el año 2022 e incidiremos en aquellos eventos históricos  que han tenido un mayor impacto en estos datos')
 
+
+
+#####  IMÁGENES  #####
+
 # Ruta del archivo de imagen local
 image_path = "graficos/total_refugiados_tiempo.png"
 # Mostrar la imagen
 st.image(image_path, caption='Evolución del número de refugiados a través de los años', use_column_width=False)
-
-# Ruta del archivo de imagen local
-html_path = "graficos/scatter_years.html"
-# Mostrar el contenido HTML
-with open(html_path, 'r', encoding='utf-8') as file:
-    html_content = file.read()
-# Añadir una explicación o caption
-explicacion = "Número de desplazados por año y por país de origen"
-html_with_caption = f"{html_content}\n\n{explicacion}"
-
-st.components.v1.html(html_content, height=800, width=1000)
 
 # Ruta del archivo de imagen local
 image_path3 = "graficos/ARIMA.png"
@@ -76,6 +69,48 @@ image_path = "graficos/top_10_2022.png"
 # Mostrar la imagen
 st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
 
+
+######  HTML  ######
+
+# Ruta del archivo de imagen local
+html_path = "graficos/scatter_years.html"
+# Mostrar el contenido HTML
+with open(html_path, 'r', encoding='utf-8') as file:
+    html_content = file.read()
+# Añadir una explicación o caption
+explicacion = "Número de desplazados por año y por país de origen"
+html_with_caption = f"{html_content}\n\n{explicacion}"
+st.components.v1.html(html_content, height=800, width=1000)
+
+# Ruta del archivo de imagen local
+html_path = "graficos/bar_continent_asylum.html"
+# Mostrar el contenido HTML
+with open(html_path, 'r', encoding='utf-8') as file:
+    html_content = file.read()
+# Añadir una explicación o caption
+explicacion = "Número de desplazados por año y por país de origen"
+html_with_caption = f"{html_content}\n\n{explicacion}"
+st.components.v1.html(html_content, height=800, width=1000)
+
+# Ruta del archivo de imagen local
+html_path = "graficos/bar_continent_origin.html"
+# Mostrar el contenido HTML
+with open(html_path, 'r', encoding='utf-8') as file:
+    html_content = file.read()
+# Añadir una explicación o caption
+explicacion = "Número de desplazados por año y por país de origen"
+html_with_caption = f"{html_content}\n\n{explicacion}"
+st.components.v1.html(html_content, height=800, width=1000)
+
+# Ruta del archivo de imagen local
+html_path = "graficos/mapa_asylum_2022.html"
+# Mostrar el contenido HTML
+with open(html_path, 'r', encoding='utf-8') as file:
+    html_content = file.read()
+# Añadir una explicación o caption
+explicacion = "Número de desplazados por año y por país de origen"
+html_with_caption = f"{html_content}\n\n{explicacion}"
+st.components.v1.html(html_content, height=800, width=1000)
 
 
 
