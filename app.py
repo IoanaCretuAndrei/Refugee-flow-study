@@ -31,8 +31,20 @@ st.sidebar.markdown("**Version:** 1.0.0")
 
 # Estructura de la aplicación con Streamlit
 st.title("*Informe sobre personas desplazadas forzosamente a nivel global*")
-st.header('Análisis de la serie histórica de los flujos migratorios y situación actual a nivel global')
+st.subheader('Análisis de la serie histórica de los flujos migratorios y situación actual a nivel global y predicciones para los próximos años.')
 #st.header("INTRODUCCIÓN")
+
+### ÍNDICE ###
+st.markdown("## Aquí irá el índice")
+
+
+### INTRODUCCIÓN ###
+st.markdown("## Introducción")
+st.text('Este informe se sumerge en el análisis de las tendencias de series históricas de refugiados y peticiones de asilo, utilizando datos recopilados por ACNUR de gobiernos de todo el mundo.')
+st.text('El objetivo es comprender patrones, factores desencadenantes y, fundamentalmente, explorar la posibilidad de prever crisis humanitarias futuras.')
+st.text('Al explorar la serie histórica buscamos proporcionar a gobiernos y organizaciones las herramientas necesarias para anticipar y abordar las necesidades básicas de las personas desplazadas, contribuyendo así a construir un futuro más resiliente y compasivo.')
+
+
 
 
 ## Subtítulo 0
