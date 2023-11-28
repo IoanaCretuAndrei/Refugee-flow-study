@@ -51,11 +51,6 @@ st.sidebar.markdown("**Version:** 1.0.0")
 # Estructura de la aplicación con Streamlit
 st.title("*Informe sobre personas desplazadas forzosamente a nivel global*")
 st.subheader('Análisis de la serie histórica de los flujos migratorios y situación actual a nivel global y predicciones para los próximos años.')
-#st.header("INTRODUCCIÓN")
-
-
-### ÍNDICE ###
-st.markdown("## Aquí irá el índice")
 
 
 ### INTRODUCCIÓN ###
