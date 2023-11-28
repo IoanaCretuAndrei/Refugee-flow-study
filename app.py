@@ -134,49 +134,6 @@ explicacion = "Número de desplazados por año y por país de origen"
 html_with_caption = f"{html_content}\n\n{explicacion}"
 st.components.v1.html(html_content, height=450, width=850)
 
-
-
-
-
-## Subtítulo 1
-st.header("El Estado Actual de los Refugiados Globales")
-st.write("En el año 2022, el mundo enfrenta una crisis migratoria con un total de 110 millones de refugiados. Este informe detalla la situación actual, destacando los países de origen y los principales destinos.")
-
-
-## Subtítulo 2
-st.header("Países de Origen Predominantes")
-
-st.subheader("1. Afganistán")
-st.write("A pesar de los esfuerzos internacionales, Afganistán continúa siendo uno de los principales países de origen de refugiados, con un flujo constante debido a conflictos y desplazamientos.")
-
-st.subheader("2. Venezuela")
-st.write("La situación política y económica en Venezuela ha llevado a un significativo éxodo de personas, contribuyendo sustancialmente al número global de refugiados.")
-
-st.subheader("3. Siria")
-st.write("Los conflictos en Siria persisten, haciendo que la población busque refugio en otras naciones en busca de seguridad y estabilidad.")
-
-st.subheader("4. Ucrania")
-st.write("A pesar de los acontecimientos en años anteriores, Ucrania sigue siendo un punto de origen para aquellos que buscan seguridad en medio de tensiones políticas y sociales.")
-
-
-
-## Subtítulo 3
-st.header("Principales Destinos de Refugiados")
-
-st.subheader("1. Reino Unido (UK)")
-st.write("Como uno de los destinos principales, el Reino Unido experimenta un flujo constante de refugiados que buscan nuevas oportunidades y seguridad.")
-
-st.subheader("2. Estados Unidos (USA)")
-st.write("La búsqueda del 'sueño americano' sigue atrayendo a personas de diversas partes del mundo, contribuyendo a la cifra global de refugiados.")
-
-st.subheader("3. Rusia")
-st.write("Aunque históricamente ha sido un país de origen, Rusia también se destaca como receptor de refugiados, desempeñando un papel crucial en la dinámica migratoria global.")
-
-
-
-
-
-
 ###### Peticiones de asilo ######
 
 st.header("Peticiones de asilo")
@@ -242,6 +199,39 @@ image_path = "graficos/top_10_2022.png"
 # Mostrar la imagen
 st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
 
+## Subtítulo 1
+st.header("El Estado Actual de los Refugiados Globales")
+st.write("En el año 2022, el mundo enfrenta una crisis migratoria con un total de 110 millones de refugiados. Este informe detalla la situación actual, destacando los países de origen y los principales destinos.")
+
+
+## Subtítulo 2
+st.header("Países de Origen Predominantes")
+
+st.subheader("1. Afganistán")
+st.write("A pesar de los esfuerzos internacionales, Afganistán continúa siendo uno de los principales países de origen de refugiados, con un flujo constante debido a conflictos y desplazamientos.")
+
+st.subheader("2. Venezuela")
+st.write("La situación política y económica en Venezuela ha llevado a un significativo éxodo de personas, contribuyendo sustancialmente al número global de refugiados.")
+
+st.subheader("3. Siria")
+st.write("Los conflictos en Siria persisten, haciendo que la población busque refugio en otras naciones en busca de seguridad y estabilidad.")
+
+st.subheader("4. Ucrania")
+st.write("A pesar de los acontecimientos en años anteriores, Ucrania sigue siendo un punto de origen para aquellos que buscan seguridad en medio de tensiones políticas y sociales.")
+
+
+
+## Subtítulo 3
+st.header("Principales Destinos de Refugiados")
+
+st.subheader("1. Reino Unido (UK)")
+st.write("Como uno de los destinos principales, el Reino Unido experimenta un flujo constante de refugiados que buscan nuevas oportunidades y seguridad.")
+
+st.subheader("2. Estados Unidos (USA)")
+st.write("La búsqueda del 'sueño americano' sigue atrayendo a personas de diversas partes del mundo, contribuyendo a la cifra global de refugiados.")
+
+st.subheader("3. Rusia")
+st.write("Aunque históricamente ha sido un país de origen, Rusia también se destaca como receptor de refugiados, desempeñando un papel crucial en la dinámica migratoria global.")
 
 st.write('Por último, se han representado los cuatro países con mas desplazados forzosos en un mapa interactivo, donde podemos ver también los 10 principales países de asilo para cada uno de estos países.')
 
