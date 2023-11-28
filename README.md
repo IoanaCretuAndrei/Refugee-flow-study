@@ -1,6 +1,6 @@
 # UNHCR Data Analysis Project
 
-![Project Cover]("https://i1.wp.com/entrefronteras.com/wp-content/uploads/2015/06/04.jpg.jpg?resize=600%2C400&ssl=1)
+![Project Cover](https://i1.wp.com/entrefronteras.com/wp-content/uploads/2015/06/04.jpg.jpg?resize=600%2C400&ssl=1)
 
 ## Project Description
 
@@ -44,7 +44,7 @@ If you have questions or comments, feel free to contact me:
 
 - Name: Ioana Cretu
 - Email: ioana.cretu22@gmail.com
-- LinkedIn: [[https://www.linkedin.com/in/ioana-cretu-cyta/]
+- LinkedIn:[https://www.linkedin.com/in/ioana-cretu-cyta/]
 -
 
 
