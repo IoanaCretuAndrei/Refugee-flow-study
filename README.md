@@ -30,10 +30,6 @@ To run this project locally, follow these steps:
 3. Install dependencies: `pip install -r requirements.txt` (if necessary).
 4. Run the main file: `python main.py` (or specify the main file).
 
-## Results
-
-📊 Add the main results and conclusions obtained during the project development here.
-
 ## Contributions
 
 Contributions are welcome! If you find any issues or have suggestions, please open an issue or send a pull request.
@@ -48,7 +44,7 @@ If you have questions or comments, feel free to contact me:
 
 - Name: Ignacio Lázaro
 - Email: ignaciolazaro80@gmail.com
-- Linkedin: https://www.linkedin.com/in/ignaciolázaro)
+- Linkedin: https://www.linkedin.com/in/ignaciolázaro/
 
 Thanks for visiting my repository!
  
