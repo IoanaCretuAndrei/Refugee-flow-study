@@ -70,52 +70,11 @@ image_path = "graficos/top_10_2022.png"
 st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
 
 # Ruta del archivo de imagen local
-image_path = "graficos/asilo_destino.png"
-# Mostrar la imagen
-st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
-
-# Ruta del archivo de imagen local
-image_path = 'graficos/asilo_origen.png'
-# Mostrar la imagen
-st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
-
-
-# Ruta del archivo de imagen local
-image_path = "graficos/demo_afg.png"
-# Mostrar la imagen
-st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
-
-
-# Ruta del archivo de imagen local
-image_path = "graficos/demo_ukr.png"
-# Mostrar la imagen
-st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
-
-
-# Ruta del archivo de imagen local
-image_path = "graficos/edad_hombres.png"
-# Mostrar la imagen
-st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
-
-# Ruta del archivo de imagen local
-image_path = "graficos/edad.png"
-# Mostrar la imagen
-st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
-
-# Ruta del archivo de imagen local
 image_path = "graficos/Sexos_refugees.png"
 # Mostrar la imagen
 st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
 
-# Ruta del archivo de imagen local
-image_path = "graficos/top_asilo_destino.png"
-# Mostrar la imagen
-st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
 
-# Ruta del archivo de imagen local
-image_path = "graficos/top_asilo_origen.png"
-# Mostrar la imagen
-st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
 
 
 
@@ -166,48 +125,11 @@ st.components.v1.html(html_content, height=800, width=1000)
 
 
 
-# Ruta del archivo de imagen local
-image_path = 'graficos/asilo_origen.png'
-# Mostrar la imagen
-st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
 
 
-# Ruta del archivo de imagen local
-image_path = "graficos/demo_afg.png"
-# Mostrar la imagen
-st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
 
 
-# Ruta del archivo de imagen local
-image_path = "graficos/demo_ukr.png"
-# Mostrar la imagen
-st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
 
-
-# Ruta del archivo de imagen local
-image_path = "graficos/edad_hombres.png"
-# Mostrar la imagen
-st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
-
-# Ruta del archivo de imagen local
-image_path = "graficos/edad.png"
-# Mostrar la imagen
-st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
-
-# Ruta del archivo de imagen local
-image_path = "graficos/Sexos_refugees.png"
-# Mostrar la imagen
-st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
-
-# Ruta del archivo de imagen local
-image_path = "graficos/top_asilo_destino.png"
-# Mostrar la imagen
-st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
-
-# Ruta del archivo de imagen local
-image_path = "graficos/top_asilo_origen.png"
-# Mostrar la imagen
-st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
 
 
 
@@ -258,26 +180,58 @@ st.write("La búsqueda del 'sueño americano' sigue atrayendo a personas de dive
 st.subheader("3. Rusia")
 st.write("Aunque históricamente ha sido un país de origen, Rusia también se destaca como receptor de refugiados, desempeñando un papel crucial en la dinámica migratoria global.")
 
-## Subtítulo 4
-st.header("Proyecciones para el Año 2023")
-st.write("Con base en modelos de machine learning y análisis de tendencias, se proyecta que la cifra de refugiados podría experimentar cambios significativos en 2023. Este informe ofrece una visión anticipada de las posibles alteraciones en los flujos migratorios y destinos emergentes.")
 
 
 
 
 
-# Peticiones de asilo
+###### Peticiones de asilo ######
+
 st.header("Peticiones de asilo")
-# Explorar datos sobre peticiones de asilo a lo largo del tiempo.
-# Identificar patrones regionales y cambios significativos.
-# Analizar factores que podrían haber influido en las peticiones de asilo.
-# Peticiones totales
-# Distribución por sexo/género
-# Distribución de 2-3 paises de origen y 2-3 de destino para ver cómo se aprueban/rechazan peticiones
+st.write("En este apartado vamos a analizar las peticiones de asilo a lo largo de los años, la demografía de los solicitantes y cómo se han resuelto estas de forma variable.")
+st.write('En primer lugar vamos a analizar, para tener una mejor visión general, tanto los países que más peticiones de asilo han recibido cómo los páises de origen de estas')
+
+# Ruta del archivo de imagen local
+image_path = "graficos/top_asilo_destino.png"
+# Mostrar la imagen
+st.image(image_path, caption='Porcentajes de peticiones recibidas totales por los 15 países con más peticiones recibidas', use_column_width=False)
+
+# Ruta del archivo de imagen local
+image_path = "graficos/top_asilo_origen.png"
+# Mostrar la imagen
+st.image(image_path, caption='Porcentajes de por país de origen del total de peticiones solicitadas', use_column_width=False)
+
+st.write('Seguidamente, veamos cómo es demográficamente la población que solicita asilo')
+st.write('Contrariamente a lo que se podría pensar, no hay una gran diferencia entre el número de hombres y mujeres que solicitan asilo')
+# Ruta del archivo de imagen local
+image_path = "graficos/Sexos_refugees.png"
+# Mostrar la imagen
+st.image(image_path, caption='Distribución por sexos de personas solicitantes de asilo', use_column_width=True)
+# Ruta del archivo de imagen local
+image_path = "graficos/edad_hombres.png"
+# Mostrar la imagen
+st.image(image_path, caption='Distribución per edad de los hombres solicitantes de asilo', use_column_width=True)
+st.write('En cuanto a la edad, hay que enfatizar que la mayoría de las personas que solicitan asilo son jóvenes menores de 17 años, representando casi la mitad de las solicitudes')
+st.write('Estos datos nos preocupan especialmente, ya que los menores de edad especialmente vulnerables y que requieren de una atención especial')
+# Ruta del archivo de imagen local
+image_path = "graficos/edad.png"
+# Mostrar la imagen
+st.image(image_path, caption='Distribución per edad de las mujeres solicitantes de asilo', use_column_width=True)
+
+st.write('Una vez ya tenemos una visión más general y sabemos cuáles son los países que más peticiones de asilo reciben y de dónde provienen, vamos a analizar cómo se han resuelto estas peticiones a lo largo de los años')
+st.write('En primera instancia, vamos a ver cómo se han resuelto las peticiones de asilo de los 4 países de origen con más solicitudes en sus principales destinos')
+# Ruta del archivo de imagen local
+image_path = 'graficos/asilo_origen.png'
+# Mostrar la imagen
+st.image(image_path, caption='Solicitudes de asilo por país de origen enen sus top destinos', use_column_width=True)
+
+st.write('A continuación, vamos a ver cómo los 4 países con más peticiones de asilo recibidas han resuelto estas según de dónde provenían.')
+# Ruta del archivo de imagen local
+image_path = 'graficos/asilo_destino.png'
+# Mostrar la imagen
+st.image(image_path, caption='Solicitudes de asilo recibidas por país de origen', use_column_width=True)
 
 
-# Situación actual de los refugiados
-st.header("Situación actual de los refugiados")
 # Describir la situación actual de los movimientos de refugiados en 2023.
 # Destacar cifras clave y regiones más afectadas.
 # .
@@ -286,6 +240,6 @@ st.header("Situación actual de los refugiados")
 
 
 ## Predicciones
-st.header("Qué esperamos para los próximos años")
-st.write("En base a modelos de machine learning y análisis de tendencias, se proyecta que la cifra de refugiados podría experimentar cambios significativos en 2023. Este informe ofrece una visión anticipada de las posibles alteraciones en los flujos migratorios y destinos emergentes.")
+#st.header("Qué esperamos para los próximos años")
+#st.write("En base a modelos de machine learning y análisis de tendencias, se proyecta que la cifra de refugiados podría experimentar cambios significativos en 2023. Este informe ofrece una visión anticipada de las posibles alteraciones en los flujos migratorios y destinos emergentes.")
 
