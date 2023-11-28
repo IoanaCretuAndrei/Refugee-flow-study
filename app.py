@@ -46,41 +46,29 @@ st.write('Este informe se sumerge en el análisis de las tendencias de series hi
 
 
 ## Primer apartado: Situación general de los refugiados a través de los años
+
 st.header("Evolución del número de personas desplazadas forzosamente a través de los años")
+st.subheader('¿Qué entendemos por desplazamiento forzoso?')
+st.write('La ACNUR hace una clasificación de las personas forzadas a desplazarse, agrupándolas en diferentes categorías: ')
+st.write('**-Refugiados bajo el mandato de ACNUR:**  un refugiado es una persona que ha cruzado las fronteras internacionales y ha buscado protección en otro país porque enfrenta amenazas graves en su país de origen.')
+st.write('**-Solicitantes de asilo:** individuos que han buscado protección internacional y cuyas solicitudes de estatus de refugiado aún no han sido determinadas.')
+st.write('**-Personas desplazadas internas:** son personas o grupos de personas que han sido obligadas u obligadas a huir o abandonar sus hogares, debido a conflictos armados, situaciones de violencia generalizada, violaciones de los derechos humanos o desastres naturales, y que no han cruzado una frontera estatal reconocida internacionalmente.')
+st.write('**-Otras personas que necesitan protección internacional:** han sido desplazadas forzosamente a través de fronteras internacionales, que no han sido informadas bajo otras categorías (solicitantes de asilo, refugiados, personas en situaciones similares a las de los refugiados) pero que probablemente necesitan protección internacional.')
+st.write('**-Otras personas de interés para ACNUR:** no necesariamente encajan directamente en ninguno de estos grupos anteriores, pero a quienes el ACNUR ha extendido sus servicios de protección y/o asistencia, basándose en motivos humanitarios.')
+st.write('Para este estudio se ha calculado como Total de desplazamientos forzados’ la suma de estas 5 categorías.')
+st.subheader('Evolución del número de personas desplazadas forzosamente a través de los años')
 st.write('A continuación, vamos a ver de manera general cómo ha evolucionado el número de personas desplazadas forzosamente a través de los años.')
 st.write('Para ello estudiaremos los datos desde el año 1951 hasta el año 2022 e incidiremos en aquellos eventos históricos  que han tenido un mayor impacto en estos datos')
-
-
-
-#####  IMÁGENES  #####
+st.write('En este primer gráfico podemos ver una representación del total de desplazamientos forzados desde el año 1951 hasta la actualidad.')
 
 # Ruta del archivo de imagen local
 image_path = "graficos/total_refugiados_tiempo.png"
 # Mostrar la imagen
 st.image(image_path, caption='Evolución del número de refugiados a través de los años', use_column_width=False)
 
-# Ruta del archivo de imagen local
-image_path3 = "graficos/ARIMA.png"
-# Mostrar la imagen
-st.image(image_path3, caption='Proyecciones del número de desplazados para los próximos años utilizando el modelo ARIMA', use_column_width=True)
-
-# Ruta del archivo de imagen local
-image_path = "graficos/top_10_2022.png"
-# Mostrar la imagen
-st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
-
-# Ruta del archivo de imagen local
-image_path = "graficos/Sexos_refugees.png"
-# Mostrar la imagen
-st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
-
-
-
-
-
-
-
-######  HTML  ######
+st.subheader('Desplazamientos forzosos por continente y año')
+st.write('En este gráfico interactivo, podemos la evolución de los desplazamientos forzados por países y año. Los tamaños de los circulos son proporcionales al número de desplazamientos forzados procedentes de cada país.')
+st.write('Estos datos pueden relacionarse con algunos hechos históricos que han tenido un gran impacto en el número de desplazamientos forzados, como por ejemplo: ')
 
 # Ruta del archivo de imagen local
 html_path = "graficos/scatter_years.html"
@@ -92,15 +80,37 @@ explicacion = "Número de desplazados por año y por país de origen"
 html_with_caption = f"{html_content}\n\n{explicacion}"
 st.components.v1.html(html_content, height=800, width=1000)
 
+
+events = ['-1974-1991: La guerra civil Etíope',
+        '-1994: El genocidio de Ruanda',
+        '-2003-2011: La guerra de Irak',
+        '-2011: La guerra de Siria',
+        '-2022: La guerra de Ucrania',
+        '-1979-1989: La invasión soviética de Afganistán',
+        '-1989-1992: La guerra de Afgana',
+        '-2001-2021: La guerra de Afganistán'
+]
+for event in events:
+    st.write(event)
+    
+    
+#####  IMÁGENES  #####
+
+
+
+
+
 # Ruta del archivo de imagen local
-html_path = "graficos/bar_continent_asylum.html"
-# Mostrar el contenido HTML
-with open(html_path, 'r', encoding='utf-8') as file:
-    html_content = file.read()
-# Añadir una explicación o caption
-explicacion = "Número de desplazados por año y por país de origen"
-html_with_caption = f"{html_content}\n\n{explicacion}"
-st.components.v1.html(html_content, height=800, width=1000)
+
+
+
+
+
+
+
+
+st.write('En este gráfico podemos ver como han ido aumentando los números totales de personas forzadas a desplazarse, por continente')
+st.write('A continuación, podemos ver los principales continentes de asilo de estos desplazamientos forzados.')
 
 # Ruta del archivo de imagen local
 html_path = "graficos/bar_continent_origin.html"
@@ -112,8 +122,8 @@ explicacion = "Número de desplazados por año y por país de origen"
 html_with_caption = f"{html_content}\n\n{explicacion}"
 st.components.v1.html(html_content, height=800, width=1000)
 
-# Ruta del archivo de imagen local
-html_path = "graficos/mapa_asylum_2022.html"
+
+html_path = "graficos/bar_continent_asylum.html"
 # Mostrar el contenido HTML
 with open(html_path, 'r', encoding='utf-8') as file:
     html_content = file.read()
@@ -122,6 +132,11 @@ explicacion = "Número de desplazados por año y por país de origen"
 html_with_caption = f"{html_content}\n\n{explicacion}"
 st.components.v1.html(html_content, height=800, width=1000)
 
+######  HTML  ######
+
+
+
+# Ruta del archivo de imagen local
 
 
 
@@ -137,12 +152,12 @@ st.components.v1.html(html_content, height=800, width=1000)
 
 
 
-st.header("Alguna definiciones de interés")
-st.write('**-Refugiados bajo el mandato de ACNUR:** En resumen, un refugiado es una persona que ha cruzado las fronteras internacionales y ha buscado protección en otro país porque enfrenta amenazas graves en su país de origen.')
-st.write('**-Solicitantes de asilo:** individuos que han buscado protección internacional y cuyas solicitudes de estatus de refugiado aún no han sido determinadas.')
-st.write('**-Personas desplazadas internas:** son personas o grupos de personas que han sido obligadas u obligadas a huir o abandonar sus hogares, debido a conflictos armados, situaciones de violencia generalizada, violaciones de los derechos humanos o desastres naturales, y que no han cruzado una frontera estatal reconocida internacionalmente.')
-st.write('**-Otras personas que necesitan protección internacional:** han sido desplazadas forzosamente a través de fronteras internacionales, que no han sido informadas bajo otras categorías (solicitantes de asilo, refugiados, personas en situaciones similares a las de los refugiados) pero que probablemente necesitan protección internacional.')
-st.write('**-Otras personas de interés para ACNUR:** no necesariamente encajan directamente en ninguno de estos grupos anteriores, pero a quienes el ACNUR ha extendido sus servicios de protección y/o asistencia, basándose en motivos humanitarios.')
+
+
+
+
+
+
 
 
 
@@ -232,6 +247,34 @@ image_path = 'graficos/asilo_destino.png'
 st.image(image_path, caption='Solicitudes de asilo recibidas por país de origen', use_column_width=True)
 
 
+
+
+############ SITUACION 2022 #################
+
+st.header("Situación de los desplazamientos forzados en 2022")
+
+st.write("En este apartado vamos a analizar la situación actual de los refugiados en 2022, destacando los países de origen y los principales destinos.")
+st.write('Esta gráfica representa los 10 países de origen con mayores índices de desplazamientos forzados en el año 2022')
+
+# Ruta del archivo de imagen local
+image_path = "graficos/top_10_2022.png"
+# Mostrar la imagen
+st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
+
+
+st.write('Por último, se han representado los cuatro países con mas desplazados forzosos en un mapa interactivo, donde podemos ver también los 10 principales países de asilo para cada uno de estos países.')
+
+
+# Ruta del archivo de imagen local
+html_path = "graficos/mapa_asylum_2022.html"
+# Mostrar el contenido HTML
+with open(html_path, 'r', encoding='utf-8') as file:
+    html_content = file.read()
+# Añadir una explicación o caption
+explicacion = "Número de desplazados por año y por país de origen"
+html_with_caption = f"{html_content}\n\n{explicacion}"
+st.components.v1.html(html_content, height=800, width=1000)
+
 # Describir la situación actual de los movimientos de refugiados en 2023.
 # Destacar cifras clave y regiones más afectadas.
 # .
@@ -239,7 +282,11 @@ st.image(image_path, caption='Solicitudes de asilo recibidas por país de origen
 # Mapas para ver de dónde son y a dónde van
 
 
-## Predicciones
-#st.header("Qué esperamos para los próximos años")
-#st.write("En base a modelos de machine learning y análisis de tendencias, se proyecta que la cifra de refugiados podría experimentar cambios significativos en 2023. Este informe ofrece una visión anticipada de las posibles alteraciones en los flujos migratorios y destinos emergentes.")
+####### PREDICCIONES#########
+st.header("Qué esperamos para los próximos años")
+st.write("En base a modelos de machine learning y análisis de tendencias, se proyecta que la cifra de refugiados podría experimentar cambios significativos en 2023. Este informe ofrece una visión anticipada de las posibles alteraciones en los flujos migratorios y destinos emergentes.")
 
+# Ruta del archivo de imagen local
+image_path3 = "graficos/ARIMA.png"
+# Mostrar la imagen
+st.image(image_path3, caption='Proyecciones del número de desplazados para los próximos años utilizando el modelo ARIMA', use_column_width=True)
