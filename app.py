@@ -167,6 +167,36 @@ image_path = "graficos/edad.png"
 # Mostrar la imagen
 st.image(image_path, caption='Distribución per edad de las mujeres solicitantes de asilo', use_column_width=True)
 
+
+# Diccionario que asocia nombres de países con URLs de imágenes
+country_images = {
+    'Afghanistan': 'graficos/demo_afg.png',
+    'Congo': 'graficos/demo_congo.png',
+    'Somalia': 'graficos/demo_somalia.png',
+    'Syria': 'graficos/demo_Syr.png',
+    'Ucrania': 'graficos/demo_ukr.png',
+    'Venezuela': 'graficos/demo_ven.png'
+}
+
+# Sidebar con el desplegable para seleccionar el país
+selected_country = st.sidebar.selectbox('Selecciona un país', list(country_images.keys()))
+
+# Mostrar la imagen correspondiente al país seleccionado
+st.image(country_images[selected_country], caption=f'Imagen de {selected_country}', use_column_width=True)
+
+# Puedes agregar más información o detalles adicionales según tus necesidades
+st.title('Información adicional')
+st.write(f'Alguna información adicional sobre {selected_country}.')
+
+
+
+
+
+
+
+
+
+
 st.write('Una vez ya tenemos una visión más general y sabemos cuáles son los países que más peticiones de asilo reciben y de dónde provienen, vamos a analizar cómo se han resuelto estas peticiones a lo largo de los años')
 st.write('En primera instancia, vamos a ver cómo se han resuelto las peticiones de asilo de los 4 países de origen con más solicitudes en sus principales destinos')
 # Ruta del archivo de imagen local
