@@ -199,11 +199,6 @@ image_path = "graficos/top_10_2022.png"
 # Mostrar la imagen
 st.image(image_path, caption='Los 10 países con más desplazados forzosos en 2022', use_column_width=False)
 
-## Subtítulo 1
-st.header("El Estado Actual de los Refugiados Globales")
-st.write("En el año 2022, el mundo enfrenta una crisis migratoria con un total de 110 millones de refugiados. Este informe detalla la situación actual, destacando los países de origen y los principales destinos.")
-
-
 ## Subtítulo 2
 st.header("Países de Origen Predominantes")
 
