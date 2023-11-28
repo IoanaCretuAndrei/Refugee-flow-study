@@ -64,7 +64,7 @@ st.write('En este primer gráfico podemos ver una representación del total de d
 # Ruta del archivo de imagen local
 image_path = "graficos/total_refugiados_tiempo.png"
 # Mostrar la imagen
-st.image(image_path, caption='Evolución del número de refugiados a través de los años', use_column_width=False)
+st.image(image_path, caption='Evolución del número de refugiados a través de los años', use_column_width=True)
 
 st.subheader('Desplazamientos forzosos por continente y año')
 st.write('En este gráfico interactivo, podemos la evolución de los desplazamientos forzados por países y año. Los tamaños de los circulos son proporcionales al número de desplazamientos forzados procedentes de cada país.')
@@ -78,7 +78,7 @@ with open(html_path, 'r', encoding='utf-8') as file:
 # Añadir una explicación o caption
 explicacion = "Número de desplazados por año y por país de origen"
 html_with_caption = f"{html_content}\n\n{explicacion}"
-st.components.v1.html(html_content, height=800, width=1000)
+st.components.v1.html(html_content, height=500, width=850)
 
 
 events = ['-1974-1991: La guerra civil Etíope',
@@ -93,22 +93,11 @@ events = ['-1974-1991: La guerra civil Etíope',
 for event in events:
     st.write(event)
     
-    
-#####  IMÁGENES  #####
 
 
 
 
-
-# Ruta del archivo de imagen local
-
-
-
-
-
-
-
-
+st.subheader('Desplazamientos forzosos por continente y año')
 st.write('En este gráfico podemos ver como han ido aumentando los números totales de personas forzadas a desplazarse, por continente')
 st.write('A continuación, podemos ver los principales continentes de asilo de estos desplazamientos forzados.')
 
@@ -120,7 +109,7 @@ with open(html_path, 'r', encoding='utf-8') as file:
 # Añadir una explicación o caption
 explicacion = "Número de desplazados por año y por país de origen"
 html_with_caption = f"{html_content}\n\n{explicacion}"
-st.components.v1.html(html_content, height=800, width=1000)
+st.components.v1.html(html_content, height=450, width=850)
 
 
 html_path = "graficos/bar_continent_asylum.html"
@@ -130,32 +119,7 @@ with open(html_path, 'r', encoding='utf-8') as file:
 # Añadir una explicación o caption
 explicacion = "Número de desplazados por año y por país de origen"
 html_with_caption = f"{html_content}\n\n{explicacion}"
-st.components.v1.html(html_content, height=800, width=1000)
-
-######  HTML  ######
-
-
-
-# Ruta del archivo de imagen local
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+st.components.v1.html(html_content, height=450, width=850)
 
 
 
@@ -273,7 +237,7 @@ with open(html_path, 'r', encoding='utf-8') as file:
 # Añadir una explicación o caption
 explicacion = "Número de desplazados por año y por país de origen"
 html_with_caption = f"{html_content}\n\n{explicacion}"
-st.components.v1.html(html_content, height=800, width=1000)
+st.components.v1.html(html_content, height=600, width=800)
 
 # Describir la situación actual de los movimientos de refugiados en 2023.
 # Destacar cifras clave y regiones más afectadas.
