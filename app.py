@@ -11,24 +11,42 @@ image_url = "https://i1.wp.com/entrefronteras.com/wp-content/uploads/2015/06/04.
 st.image(image_url, caption='Imagen cedidad por https://entrefronteras.com/que-es-la-crisis-de-refugiados/', use_column_width=True)
 
 # Sidebar
-# st.image("", caption="Descripción de la imagen")
+# Información del autor
+autor_nombre_ioa = "Ioana Cretu"
+autor_correo_ioa = "ioana.cretu22@gmail.com"
+autor_github_ioa = "https://github.com/IoanaCretuAndrei"
+autor_linkedin_ioa = "https://www.linkedin.com/in/ioana-cretu-cyta/"
+
+# Información del autor
+autor_nombre_ign = 'Ignacio Lázaro'
+autor_correo_ign = "ignaciolazaro80@gmail.com"
+autor_github_ign = "https://github.com/ignalazaro"
+autor_linkedin_ign = "https://www.linkedin.com/in/ignaciolázaro/"
+
+# Mostrar en la barra lateral
+
+
+
 st.sidebar.header("*Informe sobre personas desplazadas forzosamente a nivel global*")
 st.sidebar.markdown(" ")
 st.sidebar.markdown("Este informe ha sido realizado por la ONG Data Analysis for Refugees (DAR) con el objetivo de analizar la situación actual de los refugiados a nivel global y predecir los flujos migratorios para años venideors.")
 st.sidebar.markdown('Con este informe, se busca generar conciencia sobre la crisis migratoria y promover la colaboración entre gobiernos, organizaciones y ciudadanos para brindar apoyo a los refugiados, así como anticiparse ante futuros desplazamientos y poder erradicar las causas que los provocan y a la vez proveer las condiciones dignas necesarias para las personas desplazadas.')
 st.sidebar.markdown('**Fuente de datos:** [UNHCR](https://www.unhcr.org/global-trends-report-2022')
 st.sidebar.markdown("**Autores:** Data Analysis for Refugees (DAR)")
-st.sidebar.markdown("#Añadir nombres, link a LinkedIn y GitHub")
+st.sidebar.write(f"**Autor/a:** {autor_nombre_ioa}")
+st.sidebar.write(f"**Correo:** {autor_correo_ioa}")
+st.sidebar.write(f"**GitHub:** [{autor_github_ioa}]({autor_github_ioa})")
+st.sidebar.write(f"**LinkedIn:** [{autor_linkedin_ioa}]({autor_linkedin_ioa})")
+st.sidebar.write(f"**Autor/a:** {autor_nombre_ign}")
+st.sidebar.write(f"**Correo:** {autor_correo_ign}")
+st.sidebar.write(f"**GitHub:** [{autor_github_ign}]({autor_github_ign})")
+st.sidebar.write(f"**LinkedIn:** [{autor_linkedin_ign}]({autor_linkedin_ign})")
 st.sidebar.markdown("**Version:** 1.0.0")
+
+
 
 ######################## MAIN  ########################
 
-# Cargar los datos
-#url = "URL_DEL_CSV"  # Reemplace con la URL o ruta local de su archivo CSV
-#df = pd.read_csv(url)
-
-# Filtrar datos para el año 2022
-#df_2022 = df[df['Year'] == 2022]
 
 # Estructura de la aplicación con Streamlit
 st.title("*Informe sobre personas desplazadas forzosamente a nivel global*")
@@ -210,7 +228,11 @@ image_path = 'graficos/asilo_destino.png'
 # Mostrar la imagen
 st.image(image_path, caption='Solicitudes de asilo recibidas por país de origen', use_column_width=True)
 
-
+html_path = "graficos/dualmap.html"
+# Mostrar el contenido HTML
+with open(html_path, 'r', encoding='utf-8') as file:
+    html_content = file.read()
+st.components.v1.html(html_content, height=600, width=800)
 
 
 ############ SITUACION 2022 #################
