@@ -1,0 +1,2 @@
+carpeta/graficos/dualmap filter=lfs diff=lfs merge=lfs -text
+graficos/dualmap.html filter=lfs diff=lfs merge=lfs -text
