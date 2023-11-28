@@ -1,10 +1,10 @@
 # UNHCR Data Analysis Project
 
-![Project Cover](refugee.png)
+![Project Cover]("https://i1.wp.com/entrefronteras.com/wp-content/uploads/2015/06/04.jpg.jpg?resize=600%2C400&ssl=1)
 
 ## Project Description
 
-Welcome to the repository of my final bootcamp project, where we dive into the analysis of UNHCR data to gain insights into displaced populations and asylum requests. This exploration aims to understand the movement flows between countries, their evolution over the years, and the distribution by age and gender.
+Welcome to the repository of our final bootcamp project, where we dive into the analysis of UNHCR data to gain insights into displaced populations and asylum requests. This exploration aims to understand the movement flows between countries, their evolution over the years, and the distribution by age and gender.
 
 ## Objective
 
@@ -12,10 +12,10 @@ Welcome to the repository of my final bootcamp project, where we dive into the a
 
 ## Repository Contents
 
-- **Notebooks:** Folder containing Jupyter Notebooks used in the project development.
+- **Jupyter Notebooks** used in the project development.
 - **Data:** Folder storing the datasets used.
-- **Documentation:** Additional information, documents, and relevant links.
-
+- **graficos:** Folder storing the graphs.
+- 
 ## Technologies Used
 
 - Python
@@ -42,9 +42,15 @@ Contributions are welcome! If you find any issues or have suggestions, please op
 
 If you have questions or comments, feel free to contact me:
 
-- Name: Your Name
-- Email: your@email.com
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/your-username/)
+- Name: Ioana Cretu
+- Email: oana.cretu22@gmail.com
+- LinkedIn: [[Your LinkedIn Profile](https://www.linkedin.com/in/your-username/](https://www.linkedin.com/in/ioana-cretu-cyta/))
+
+
+# Información del autor
+- Name: Ignacio Lázaro
+- Email: ignaciolazaro80@gmail.com
+- Linkedin: [[Your LinkedIn Profile](https://www.linkedin.com/in/your-username/](https://www.linkedin.com/in/ignaciolázaro/))
 
 Thanks for visiting my repository!
  
