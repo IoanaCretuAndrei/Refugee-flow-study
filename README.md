@@ -44,7 +44,9 @@ If you have questions or comments, feel free to contact me:
 
 - Name: Ioana Cretu
 - Email: ioana.cretu22@gmail.com
-- LinkedIn: [[Your LinkedIn Profile](https://www.linkedin.com/in/ioana-cretu-cyta/))
+- LinkedIn: [[https://www.linkedin.com/in/ioana-cretu-cyta/]
+-
+
 
 
 # Información del autor
