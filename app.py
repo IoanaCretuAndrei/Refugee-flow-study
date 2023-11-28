@@ -191,6 +191,11 @@ st.components.v1.html(html_content, height=600, width=800)
 
 st.header("Situación de los desplazamientos forzados en 2022")
 
+# Ruta del archivo de imagen local
+image_path = "graficos/wordcloud.png"
+# Mostrar la imagen
+st.image(image_path, caption='Wordcloud de los paises de origen de personas desplazadas de froma forzada en 2022', use_column_width=False)
+
 st.write("En este apartado vamos a analizar la situación actual de los refugiados en 2022, destacando los países de origen y los principales destinos.")
 st.write('Esta gráfica representa los 10 países de origen con mayores índices de desplazamientos forzados en el año 2022')
 
