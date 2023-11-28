@@ -179,23 +179,10 @@ country_images = {
 }
 
 # Sidebar con el desplegable para seleccionar el país
-selected_country = st.sidebar.selectbox('Selecciona un país', list(country_images.keys()))
+selected_country = st.selectbox('Selecciona un país', list(country_images.keys()))
 
 # Mostrar la imagen correspondiente al país seleccionado
 st.image(country_images[selected_country], caption=f'Imagen de {selected_country}', use_column_width=True)
-
-# Puedes agregar más información o detalles adicionales según tus necesidades
-st.title('Información adicional')
-st.write(f'Alguna información adicional sobre {selected_country}.')
-
-
-
-
-
-
-
-
-
 
 st.write('Una vez ya tenemos una visión más general y sabemos cuáles son los países que más peticiones de asilo reciben y de dónde provienen, vamos a analizar cómo se han resuelto estas peticiones a lo largo de los años')
 st.write('En primera instancia, vamos a ver cómo se han resuelto las peticiones de asilo de los 4 países de origen con más solicitudes en sus principales destinos')
