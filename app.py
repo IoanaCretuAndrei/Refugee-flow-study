@@ -29,7 +29,7 @@ autor_linkedin_ign = "https://www.linkedin.com/in/ignaciolázaro/"
 
 st.sidebar.header("*Informe sobre personas desplazadas forzosamente a nivel global*")
 st.sidebar.markdown(" ")
-st.sidebar.markdown("Este informe ha sido realizado por la ONG Data Analysis for Refugees (DAR) con el objetivo de analizar la situación actual de los refugiados a nivel global y predecir los flujos migratorios para años venideors.")
+st.sidebar.markdown("Este informe ha sido realizado por la ONG Data Analysis for Refugees (DAR) con el objetivo de analizar la situación actual de los refugiados a nivel global y predecir los flujos migratorios para años venideros.")
 st.sidebar.markdown('Con este informe, se busca generar conciencia sobre la crisis migratoria y promover la colaboración entre gobiernos, organizaciones y ciudadanos para brindar apoyo a los refugiados, así como anticiparse ante futuros desplazamientos y poder erradicar las causas que los provocan y a la vez proveer las condiciones dignas necesarias para las personas desplazadas.')
 st.sidebar.markdown('**Fuente de datos:** [UNHCR](https://www.unhcr.org/global-trends-report-2022')
 st.sidebar.markdown("**Autores:** Data Analysis for Refugees (DAR)")
@@ -63,9 +63,9 @@ st.write('Este informe se sumerge en el análisis de las tendencias de series hi
 st.header("Evolución del número de personas desplazadas forzosamente a través de los años")
 st.subheader('¿Qué entendemos por desplazamiento forzoso?')
 st.write('La ACNUR hace una clasificación de las personas forzadas a desplazarse, agrupándolas en diferentes categorías: ')
-st.write('**-Refugiados bajo el mandato de ACNUR:**  un refugiado es una persona que ha cruzado las fronteras internacionales y ha buscado protección en otro país porque enfrenta amenazas graves en su país de origen.')
+st.write('**-Refugiados bajo el mandato de ACNUR:**  un refugiado es una persona que ha cruzado las fronteras internacionales y ha buscado protección porque enfrenta amenazas graves en su país de origen.')
 st.write('**-Solicitantes de asilo:** individuos que han buscado protección internacional y cuyas solicitudes de estatus de refugiado aún no han sido determinadas.')
-st.write('**-Personas desplazadas internas:** son personas o grupos de personas que han sido obligadas u obligadas a huir o abandonar sus hogares, debido a conflictos armados, situaciones de violencia generalizada, violaciones de los derechos humanos o desastres naturales, y que no han cruzado una frontera estatal reconocida internacionalmente.')
+st.write('**-Personas desplazadas internas:** son personas o grupos de personas que han sido obligadas a huir o abandonar sus hogares, debido a conflictos armados, situaciones de violencia generalizada, violaciones de los derechos humanos o desastres naturales, y que no han cruzado una frontera estatal reconocida internacionalmente.')
 st.write('**-Otras personas que necesitan protección internacional:** han sido desplazadas forzosamente a través de fronteras internacionales, que no han sido informadas bajo otras categorías (solicitantes de asilo, refugiados, personas en situaciones similares a las de los refugiados) pero que probablemente necesitan protección internacional.')
 st.write('**-Otras personas de interés para ACNUR:** no necesariamente encajan directamente en ninguno de estos grupos anteriores, pero a quienes el ACNUR ha extendido sus servicios de protección y/o asistencia, basándose en motivos humanitarios.')
 st.write('Para este estudio se ha calculado como Total de desplazamientos forzados’ la suma de estas 5 categorías.')
@@ -189,7 +189,7 @@ st.write('En primera instancia, vamos a ver cómo se han resuelto las peticiones
 # Ruta del archivo de imagen local
 image_path = 'graficos/asilo_origen.png'
 # Mostrar la imagen
-st.image(image_path, caption='Solicitudes de asilo por país de origen enen sus top destinos', use_column_width=True)
+st.image(image_path, caption='Solicitudes de asilo por país de origen en sus top destinos', use_column_width=True)
 
 st.write('A continuación, vamos a ver cómo los 4 países con más peticiones de asilo recibidas han resuelto estas según de dónde provenían.')
 # Ruta del archivo de imagen local
@@ -211,7 +211,7 @@ st.header("Situación de los desplazamientos forzados en 2022")
 # Ruta del archivo de imagen local
 image_path = "graficos/wordcloud.png"
 # Mostrar la imagen
-st.image(image_path, caption='Wordcloud de los paises de origen de personas desplazadas de froma forzada en 2022', use_column_width=True)
+st.image(image_path, caption='Wordcloud de los países de origen de personas desplazadas de forma forzada en 2022', use_column_width=True)
 
 st.write("En este apartado vamos a analizar la situación actual de los refugiados en 2022, destacando los países de origen y los principales destinos.")
 st.write('Esta gráfica representa los 10 países de origen con mayores índices de desplazamientos forzados en el año 2022')
