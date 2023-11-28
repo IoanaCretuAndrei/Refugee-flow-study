@@ -43,14 +43,14 @@ Contributions are welcome! If you find any issues or have suggestions, please op
 If you have questions or comments, feel free to contact me:
 
 - Name: Ioana Cretu
-- Email: oana.cretu22@gmail.com
-- LinkedIn: [[Your LinkedIn Profile](https://www.linkedin.com/in/your-username/](https://www.linkedin.com/in/ioana-cretu-cyta/))
+- Email: ioana.cretu22@gmail.com
+- LinkedIn: [[Your LinkedIn Profile](https://www.linkedin.com/in/ioana-cretu-cyta/))
 
 
 # Información del autor
 - Name: Ignacio Lázaro
 - Email: ignaciolazaro80@gmail.com
-- Linkedin: [[Your LinkedIn Profile](https://www.linkedin.com/in/your-username/](https://www.linkedin.com/in/ignaciolázaro/))
+- Linkedin: [[Your LinkedIn Profile](https://www.linkedin.com/in/ignaciolázaro/))
 
 Thanks for visiting my repository!
  
