@@ -8,7 +8,7 @@ import plotly.express as px
 from PIL import Image
 
 image_url = "https://i1.wp.com/entrefronteras.com/wp-content/uploads/2015/06/04.jpg.jpg?resize=600%2C400&ssl=1"
-st.image(image_url, caption='Imagen cedidad por https://entrefronteras.com/que-es-la-crisis-de-refugiados/', use_column_width=True)
+st.image(image_url, caption='Imagen cedida por https://entrefronteras.com/que-es-la-crisis-de-refugiados/', use_column_width=True)
 
 # Sidebar
 # Información del autor
