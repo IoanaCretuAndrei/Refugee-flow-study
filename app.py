@@ -184,13 +184,7 @@ selected_country = st.selectbox('Selecciona un país', list(country_images.keys(
 # Mostrar la imagen correspondiente al país seleccionado
 st.image(country_images[selected_country], caption=f'Imagen de {selected_country}', use_column_width=True)
 
-st.write('Una vez ya tenemos una visión más general y sabemos cuáles son los países que más peticiones de asilo reciben y de dónde provienen, vamos a analizar cómo se han resuelto estas peticiones a lo largo de los años')
-st.write('En primera instancia, vamos a ver cómo se han resuelto las peticiones de asilo de los 4 países de origen con más solicitudes en sus principales destinos')
-# Ruta del archivo de imagen local
-image_path = 'graficos/asilo_origen.png'
-# Mostrar la imagen
-st.image(image_path, caption='Solicitudes de asilo por país de origen en sus top destinos', use_column_width=True)
-
+st.write('Una vez ya tenemos una visión más general y sabemos cuáles son los países que más peticiones de asilo reciben y de dónde provienen, vamos a analizar cómo han resuelto las peticiones 4 de los páises que más solicitudes han recibido.')
 st.write('A continuación, vamos a ver cómo los 4 países con más peticiones de asilo recibidas han resuelto estas según de dónde provenían.')
 # Ruta del archivo de imagen local
 image_path = 'graficos/asilo_destino.png'
